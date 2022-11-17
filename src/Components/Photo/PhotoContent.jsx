@@ -22,7 +22,9 @@ function PhotoContent({ data, single }) {
 						{user.data && user.data.username === photo.author ? (
 							<PhotoDelete id={photo.id} />
 						) : (
-							<Link to={`/perfil/${photo.author}`}>
+							<Link
+								to={`/dogs-social-network/perfil/${photo.author}`}
+							>
 								@{photo.author}
 							</Link>
 						)}
@@ -31,7 +33,9 @@ function PhotoContent({ data, single }) {
 						</span>
 					</p>
 					<h1 className="title">
-						<Link to={`/foto/${photo.id}`}>{photo.title}</Link>
+						<Link to={`/dogs-social-network/foto/${photo.id}`}>
+							{photo.title}
+						</Link>
 					</h1>
 					<ul className={styles.attributes}>
 						<li>{photo.peso} kg</li>

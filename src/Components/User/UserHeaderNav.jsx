@@ -38,13 +38,13 @@ function UserHeaderNav() {
 					mobileMenu && styles.navMobileActive
 				}`}
 			>
-				<NavLink to="/conta" end>
+				<NavLink to="/dogs-social-network/conta" end>
 					<MinhasFotos /> {mobile && "Minhas Fotos"}
 				</NavLink>
-				<NavLink to="/conta/estatisticas">
+				<NavLink to="/dogs-social-network/conta/estatisticas">
 					<Estatisticas /> {mobile && "Estatísticas"}
 				</NavLink>
-				<NavLink to="/conta/postar">
+				<NavLink to="/dogs-social-network/conta/postar">
 					<AdicionarFoto /> {mobile && "Adicionar Fotos"}
 				</NavLink>
 				<button onClick={userLogOut}>

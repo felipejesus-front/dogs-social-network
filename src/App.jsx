@@ -20,15 +20,24 @@ function App() {
 
 					<main className="AppBody">
 						<Routes>
-							<Route path="/" element={<Home />} />
-							<Route path="login/*" element={<Login />} />
-							<Route path="foto/:id" element={<Photo />} />
 							<Route
-								path="perfil/:user"
+								path="/dogs-social-network"
+								element={<Home />}
+							/>
+							<Route
+								path="dogs-social-network/login/*"
+								element={<Login />}
+							/>
+							<Route
+								path="dogs-social-network/foto/:id"
+								element={<Photo />}
+							/>
+							<Route
+								path="dogs-social-network/perfil/:user"
 								element={<UserProfile />}
 							/>
 							<Route
-								path="conta/*"
+								path="dogs-social-network/conta/*"
 								element={
 									<ProtectedRouter>
 										<User />

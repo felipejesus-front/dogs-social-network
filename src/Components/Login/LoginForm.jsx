@@ -46,13 +46,19 @@ function LoginForm() {
 				)}
 				<Error error={error} />
 			</form>
-			<Link className={styles.perdeu} to="/login/perdeu">
+			<Link
+				className={styles.perdeu}
+				to="/dogs-social-network/login/perdeu"
+			>
 				Perdeu a senha?
 			</Link>
 			<div className={styles.cadastro}>
 				<h2 className={styles.subtitle}>Cadastre-se</h2>
 				<p>Ainda não possui conta? Cadastre-se no site.</p>
-				<Link className={stylesbtn.button} to="/login/criar">
+				<Link
+					className={stylesbtn.button}
+					to="/dogs-social-network/login/criar"
+				>
 					Cadastro
 				</Link>
 			</div>

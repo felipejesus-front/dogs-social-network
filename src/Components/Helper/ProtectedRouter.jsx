@@ -6,7 +6,7 @@ import { UserContext } from "../../UserContext";
 function ProtectedRouter({ children }) {
 	const { login } = useContext(UserContext);
 
-	return login ? children : <Navigate to="/login" />;
+	return login ? children : <Navigate to="/dogs-social-network/login" />;
 }
 
 export default ProtectedRouter;
