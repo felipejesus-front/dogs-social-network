@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dogs-social-network/static/css/main.b5537ea6.css",
-    "main.js": "/dogs-social-network/static/js/main.a73d10f2.js",
+    "main.js": "/dogs-social-network/static/js/main.4d1c20da.js",
     "static/css/435.e95aefa1.chunk.css": "/dogs-social-network/static/css/435.e95aefa1.chunk.css",
     "static/js/435.6e46b46b.chunk.js": "/dogs-social-network/static/js/435.6e46b46b.chunk.js",
     "static/js/215.c01601a2.chunk.js": "/dogs-social-network/static/js/215.c01601a2.chunk.js",
@@ -18,13 +18,13 @@
     "static/media/estatisticas.svg": "/dogs-social-network/static/media/estatisticas.c69dd1e16d1f351b25eb7f01658f7c8e.svg",
     "static/media/adicionar.svg": "/dogs-social-network/static/media/adicionar.2fe277f9b2182f23c15f5afd7110067a.svg",
     "main.b5537ea6.css.map": "/dogs-social-network/static/css/main.b5537ea6.css.map",
-    "main.a73d10f2.js.map": "/dogs-social-network/static/js/main.a73d10f2.js.map",
+    "main.4d1c20da.js.map": "/dogs-social-network/static/js/main.4d1c20da.js.map",
     "435.e95aefa1.chunk.css.map": "/dogs-social-network/static/css/435.e95aefa1.chunk.css.map",
     "435.6e46b46b.chunk.js.map": "/dogs-social-network/static/js/435.6e46b46b.chunk.js.map",
     "215.c01601a2.chunk.js.map": "/dogs-social-network/static/js/215.c01601a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5537ea6.css",
-    "static/js/main.a73d10f2.js"
+    "static/js/main.4d1c20da.js"
   ]
 }
