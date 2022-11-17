@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/dogs-social-network/static/css/main.b5537ea6.css",
+    "main.js": "/dogs-social-network/static/js/main.26b53860.js",
+    "static/css/435.e95aefa1.chunk.css": "/dogs-social-network/static/css/435.e95aefa1.chunk.css",
+    "static/js/435.bc321a29.chunk.js": "/dogs-social-network/static/js/435.bc321a29.chunk.js",
+    "static/js/215.c01601a2.chunk.js": "/dogs-social-network/static/js/215.c01601a2.chunk.js",
+    "static/media/login.jpg": "/dogs-social-network/static/media/login.07d71f5b9d5714e556b0.jpg",
+    "static/media/enviar.svg": "/dogs-social-network/static/media/enviar.6af5e9dd22852c8f9db09226e587154f.svg",
+    "static/media/sair.svg": "/dogs-social-network/static/media/sair.a1917210ebb96c5029ada5135bdb8847.svg",
+    "index.html": "/dogs-social-network/index.html",
+    "static/media/visualizacao-black.svg": "/dogs-social-network/static/media/visualizacao-black.ee94fd3d144dfc2f335a.svg",
+    "static/media/visualizacao.svg": "/dogs-social-network/static/media/visualizacao.09cd5578a66295798789.svg",
+    "static/media/feed.svg": "/dogs-social-network/static/media/feed.b8b13312eb97d7668cf865481902a8c3.svg",
+    "static/media/usuario.svg": "/dogs-social-network/static/media/usuario.6d65a298e2fba2e83683.svg",
+    "static/media/dogs-footer.svg": "/dogs-social-network/static/media/dogs-footer.9c77af3ac7f5061f1fe127298bb19eb3.svg",
+    "static/media/dogs.svg": "/dogs-social-network/static/media/dogs.69bf6d229e8cb46f9023318d0802ee8f.svg",
+    "static/media/estatisticas.svg": "/dogs-social-network/static/media/estatisticas.c69dd1e16d1f351b25eb7f01658f7c8e.svg",
+    "static/media/adicionar.svg": "/dogs-social-network/static/media/adicionar.2fe277f9b2182f23c15f5afd7110067a.svg",
+    "main.b5537ea6.css.map": "/dogs-social-network/static/css/main.b5537ea6.css.map",
+    "main.26b53860.js.map": "/dogs-social-network/static/js/main.26b53860.js.map",
+    "435.e95aefa1.chunk.css.map": "/dogs-social-network/static/css/435.e95aefa1.chunk.css.map",
+    "435.bc321a29.chunk.js.map": "/dogs-social-network/static/js/435.bc321a29.chunk.js.map",
+    "215.c01601a2.chunk.js.map": "/dogs-social-network/static/js/215.c01601a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5537ea6.css",
+    "static/js/main.26b53860.js"
+  ]
+}
