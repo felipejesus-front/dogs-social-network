@@ -18,7 +18,8 @@ function PhotoDelete({ id }) {
 
 			if (
 				response.ok &&
-				window.location.pathname === "/dogs-social-network"
+				(window.location.pathname === "/dogs-social-network" ||
+					window.location.pathname === "/dogs-social-network/conta")
 			)
 				window.location.reload();
 			else navigate("/dogs-social-network/conta");
