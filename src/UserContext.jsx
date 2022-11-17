@@ -18,7 +18,7 @@ export function UserStorage({ children }) {
 			setLoading(false);
 			setLogin(false);
 			window.localStorage.removeItem("token");
-			navigate("/dogs-social-network/login");
+			navigate("/login");
 		},
 		[navigate]
 	);
@@ -44,7 +44,7 @@ export function UserStorage({ children }) {
 			const { token } = await tokenRes.json();
 			window.localStorage.setItem("token", token);
 			await getUser(token);
-			navigate("/dogs-social-network/conta");
+			navigate("/conta");
 		} catch (err) {
 			setError(err.message);
 			setLogin(false);

@@ -14,11 +14,11 @@ function UserHeader() {
 		const { pathname } = location;
 
 		switch (pathname) {
-			case "/dogs-social-network/conta/estatisticas":
+			case "/conta/estatisticas":
 				setTitle("Estatísticas");
 				break;
 
-			case "/dogs-social-network/conta/postar":
+			case "/conta/postar":
 				setTitle("Poste Sua Foto");
 				break;
 

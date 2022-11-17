@@ -19,7 +19,7 @@ function UserPhotoPost() {
 	const navigate = useNavigate();
 
 	useEffect(() => {
-		if (data) navigate("/dogs-social-network/conta");
+		if (data) navigate("/conta");
 	}, [data, navigate]);
 
 	function handleSubmit(event) {

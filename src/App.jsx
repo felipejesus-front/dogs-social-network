@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -14,30 +14,21 @@ import NotFound from "./Components/NotFound";
 function App() {
 	return (
 		<div className="App">
-			<BrowserRouter>
+			<HashRouter>
 				<UserStorage>
 					<Header />
 
 					<main className="AppBody">
 						<Routes>
+							<Route path="/" element={<Home />} />
+							<Route path="login/*" element={<Login />} />
+							<Route path="foto/:id" element={<Photo />} />
 							<Route
-								path="/dogs-social-network"
-								element={<Home />}
-							/>
-							<Route
-								path="dogs-social-network/login/*"
-								element={<Login />}
-							/>
-							<Route
-								path="dogs-social-network/foto/:id"
-								element={<Photo />}
-							/>
-							<Route
-								path="dogs-social-network/perfil/:user"
+								path="perfil/:user"
 								element={<UserProfile />}
 							/>
 							<Route
-								path="dogs-social-network/conta/*"
+								path="conta/*"
 								element={
 									<ProtectedRouter>
 										<User />
@@ -50,7 +41,7 @@ function App() {
 
 					<Footer />
 				</UserStorage>
-			</BrowserRouter>
+			</HashRouter>
 		</div>
 	);
 }
