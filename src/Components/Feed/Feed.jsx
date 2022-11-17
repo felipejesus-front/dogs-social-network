@@ -53,6 +53,11 @@ function Feed({ user }) {
 					setInfinite={setInfinite}
 				/>
 			))}
+			{!infinite && (
+				<p style={{ textAlign: "center", color: "#333" }}>
+					não existem mais postagens.
+				</p>
+			)}
 		</div>
 	);
 }
